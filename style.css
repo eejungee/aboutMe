@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 850px;
+    height: 850px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.profile-wrapper {
+    width: 800px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileImg {
+    width: 200px;
+    height: 200px;
+    background-image: url("profile.JPG");
+    background-size: 180px;
+    border-radius: 50%;
+    border-right: 15px;
+}
+
+.profile-textbox {
+    width: 500px;
+    height: 270px;
+    overflow: hidden;
+    margin-left: 20px;
+    line-height: 2.5em;
+    font-size: 15px
+}
+
+.btn-wrapper {
+    display: flex;
+    width: 850px;
+    justify-content: space-around;
+    border-bottom: 3px solid lightgray;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-wrapper button {
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    background-color: cornflowerblue;
+    border: none;
+    padding: 1rem 4rem;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-wrapper button:focus {
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+    background-color: lightgrey;
+}
+
+table {
+    margin: 0px auto;
+}
+
+.content-wrapper img {
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    transition: transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.content-wrapper img:hover {
+    transform: scale(1.5);
+}
